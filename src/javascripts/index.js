@@ -5,3 +5,7 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 
 // JavaScript
 //TODO
+function displayMessage() {
+    let x = document.getElementById("name").value;
+    alert("Welcome " + x);
+  }
